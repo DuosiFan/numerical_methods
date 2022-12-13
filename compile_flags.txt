@@ -1,0 +1,2 @@
+-I/home/duosifan/thirdparty/install/fftw3-clang/include
+-I./use_libraries/fftw3/include
