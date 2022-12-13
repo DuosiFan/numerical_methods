@@ -1,6 +1,10 @@
-* 
-$x=2$
-
-$$
-  x=2
-$$
+* Complex one-dimensional DFTS
+** The math behind
+   - Forward
+     $$
+     Y_k=\sum_{j=0}^{n-1} X_j \mathrm{e}^{-2\pi j k \sqrt{-1}/n}
+     $$
+   - Backward
+     $$
+     Y_k=\sum_{j=0}^{n-1} X_j \mathrm{e}^{2\pi j k \sqrt{-1}/n}
+     $$
